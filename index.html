@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Personal Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <header class="container header">
+    <div class="brand">
+      <div class="avatar" aria-hidden="true">YN</div>
+      <div>
+        <h1 class="name">Your Name</h1>
+        <p class="tagline">一個簡潔、有質感的個人網站（可自行改成你的介紹）</p>
+      </div>
+    </div>
+
+    <div class="clock-card">
+      <div class="clock-label">現在時間</div>
+      <div id="clock" class="clock">--:--:--</div>
+      <div class="clock-hint">自動每秒更新</div>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <section class="card" id="about">
+      <h2>About</h2>
+      <p>
+        這裡放你的自我介紹：你是誰、在做什麼、你想讓人記住你什麼。
+        例如：我熱愛教學與跨領域專案，專注在把複雜的事情講得簡單。
+      </p>
+      <p class="muted">
+        小提示：把「Your Name」改成你的名字，把內容換成你自己的版本就很完整了🙂
+      </p>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+      <ul class="pill-list">
+        <li>HTML / CSS</li>
+        <li>JavaScript</li>
+        <li>Git / GitHub</li>
+        <li>UI Design</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <div class="project-title">L1 Personal Page</div>
+        <div class="muted">Glassmorphism 單頁網站 + 即時時間 + GitHub Pages 部署</div>
+      </div>
+      <div class="project">
+        <div class="project-title">Next Project (Placeholder)</div>
+        <div class="muted">之後你可以把你做過的作品、課程作業、研究小專案放在這裡。</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <span class="muted">© <span id="year"></span> Your Name</span>
+    <span class="muted">Built with HTML/CSS/JS</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
